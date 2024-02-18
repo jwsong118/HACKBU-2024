@@ -11,7 +11,7 @@ def laundry_monday():
     for i in range(24):
         if data_of_people[i] == minvalue(percentage = data_of_people):
             x_min = x_pos[i]
-            print("The best time to go is "+ str(x_min)+" because it will be filled by the lowest percentage")
+            print(f"The best time to go is {x_min} because it will be filled by the lowest percentage")
     graph(figwidth = 15, x_pos = x_pos, x = [a for a in range(24)], y = data_of_people, graph_title= "day graph")
     plt.show()
 
@@ -22,7 +22,7 @@ def laundry_tuesday():
     for i in range(24):
         if data_of_people[i] == minvalue(percentage = data_of_people):
             x_min = x_pos[i]
-            print("The best time to go is "+ str(x_min)+" because it will be filled by the lowest percentage")
+            print(f"The best time to go is {x_min} because it will be filled by the lowest percentage")
     graph(figwidth = 15, x_pos = x_pos, x = [a for a in range(24)], y = data_of_people, graph_title= "day graph")
     plt.show()
 
@@ -33,7 +33,7 @@ def laundry_wednesday():
     for i in range(24):
         if data_of_people[i] == minvalue(percentage = data_of_people):
             x_min = x_pos[i]
-            print("The best time to go is "+ str(x_min)+" because it will be filled by the lowest percentage")
+            print(f"The best time to go is {x_min} because it will be filled by the lowest percentage")
     graph(figwidth = 15, x_pos = x_pos, x = [a for a in range(24)], y = data_of_people, graph_title= "day graph")
     plt.show()
     
@@ -44,7 +44,7 @@ def laundry_thursday():
     for i in range(24):
         if data_of_people[i] == minvalue(percentage = data_of_people):
             x_min = x_pos[i]
-            print("The best time to go is "+ str(x_min)+" because it will be filled by the lowest percentage")
+            print(f"The best time to go is {x_min} because it will be filled by the lowest percentage")
     graph(figwidth = 15, x_pos = x_pos, x = [a for a in range(24)], y = data_of_people, graph_title= "day graph")
     plt.show()
 
@@ -55,7 +55,7 @@ def laundry_friday(m=1.1):
     for i in range(24):
         if data_of_people[i] == minvalue(percentage = data_of_people):
             x_min = x_pos[i]
-            print("The best time to go is "+ str(x_min)+" because it will be filled by the lowest percentage")
+            print(f"The best time to go is {x_min} because it will be filled by the lowest percentage")
     graph(figwidth = 15, x_pos = x_pos, x = [a for a in range(24)], y = data_of_people, graph_title= "day graph")
     plt.show()
     
@@ -66,7 +66,7 @@ def laundry_saturday(m=1.2):
     for i in range(24):
         if data_of_people[i] == minvalue(percentage = data_of_people):
             x_min = x_pos[i]
-            print("The best time to go is "+ str(x_min)+" because it will be filled by the lowest percentage")
+            print(f"The best time to go is {x_min} because it will be filled by the lowest percentage")
     graph(figwidth = 15, x_pos = x_pos, x = [a for a in range(24)], y = data_of_people, graph_title= "day graph")
     plt.show()
 
@@ -77,8 +77,7 @@ def laundry_sunday(m=1.2):
     for i in range(24):
         if data_of_people[i] == minvalue(percentage = data_of_people):
             x_min = x_pos[i]
-            print("The best time to go is "+ str(x_min)+" because it will be filled by the lowest percentage")
+            print(f"The best time to go is {x_min} because it will be filled by the lowest percentage")
     graph(figwidth = 15, x_pos = x_pos, x = [a for a in range(24)], y = data_of_people, graph_title= "day graph")
+    plt.savefig('time_graph_laundry__sunday.png')
     plt.show()
-
-laundry_sunday()

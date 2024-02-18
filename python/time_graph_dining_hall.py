@@ -11,7 +11,10 @@ for i in range(24):
     if data_of_people[i] == minvalue(percentage = data_of_people):
         x_min = x_pos[i]
         print("The best time to go is "+ str(x_min)+" because it will be filled by the lowest percentage")
+
+
 graph(figwidth = 15, x_pos = x_pos, x = [a for a in range(24)], y = data_of_people, graph_title= "day graph")
+plt.savefig('time_graph_dining_hall.png')
 plt.show()
 
 

@@ -11,6 +11,7 @@ for i in range(7):
         x_min = x_pos[i]
         print("The best day to go is "+ str(x_min)+" because it will be filled by the lowest percentage")
 graph(y = data_of_people)
+plt.savefig('week_graph_dining_hall.png')
 plt.show()
 
 
